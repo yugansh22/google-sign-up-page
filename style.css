@@ -1,3 +1,53 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
 .container {
     text-align: center;
     display: flex;
@@ -11,7 +61,7 @@
     margin-right: 3.6%;
 }
 .main {
-    width: 33.2%;
+    width: 33%;
     border: solid lightgrey 1px;
     border-radius: 8px;
 }
@@ -35,19 +85,18 @@
     padding-top: 12px;
     font-family: sans-serif;
 }
-.input {
-    border-radius: 4px;
-    color: #202124;
-    font-size: 16px;
-    height: 28px;
-    margin: 1px 1px 0 1px;
-    padding: 13px 15px;
-    z-index: 1;
-    border: solid lightgrey 1px;
-    width: 76%;
+.input1{
+    padding: 19px 15px;
+    width: 100%;
 }
 .btn {
     color: blue;
     background-color: white;
     border: white;
+    display: flex;
+    padding-top: 9px;
+}
+.form-container{
+    width: 76%;
+    margin: auto;
 }
