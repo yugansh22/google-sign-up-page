@@ -10,14 +10,24 @@
             <div class="main">
                 <div class="logo-contianer"><img src="google1.png" class="img"></div>
                 <div class="sign-in">Sign in</div>
-                <div class="google">to continue to Google</div><br><br>
+                <div class="google">Use your Google Account</div><br><br>
                 <div class="form-container">
-                    <input  type="text" placeholder="Email or phone" class="input1">
-                    <div class="btnDIV"><button class="btn">Forgot email?</button></div>
+                    <input  type="email" placeholder="Email or phone" class="input1">
+                    <div class="btnDIV"><button class="btn" onclick="fe()">Forgot email?</button></div>
+                    <div class="issue">
+                        Not your computer? Use Guest mode to sign in privately.
+                        <button class="learn" onclick="learn()">Learn more</button>
+                    </div>
+                    <div class="create-acc">
+                        <button class="account">Create account</button>
+                        <div class="nextDIV">
+                            <button class="next">Next</button>
+                        </div>
+                    </div>
                 </div>
-                
             </div>
 
         </div>
+        <script src="script.js"></script>
     </body>
 </html>

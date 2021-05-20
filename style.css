@@ -59,44 +59,101 @@ table {
     justify-content: center;
     border-radius: 8px;
     margin-right: 3.6%;
+    padding: 10px;
 }
 .main {
     width: 33%;
     border: solid lightgrey 1px;
     border-radius: 8px;
+    font-size: 14px;
+    padding-bottom: 6%;
 }
 .img {
     margin-top: 35px;
-    width: 75px;
-    padding: 11px;
-    margin-left: 13px;
+    width: 78px;
+    margin-left: 3.2%;
 }
 .sign-in {
     font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
     font-size: 24px;
     font-weight: 400;
+    padding: 1%;
 }
 .google {
     color: #202124;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 500;
     letter-spacing: .1px;
     line-height: 1.5;
-    padding-top: 12px;
+    padding-top: 8px;
     font-family: sans-serif;
 }
 .input1{
-    padding: 19px 15px;
     width: 100%;
+    border-radius: 4px;
+    border: solid lightgrey 1px;
+    font-size: 16px;
+    margin: 1px 1px 0 1px;
+    padding: 5% 15px;
+    z-index: 1;
 }
 .btn {
     color: blue;
     background-color: white;
     border: white;
     display: flex;
-    padding-top: 9px;
+    padding-top: 2%;
 }
 .form-container{
-    width: 76%;
+    width: 82%;
     margin: auto;
+}
+.issue {
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 1.4286;
+    color: #5f6368;
+    padding-top: 12%;
+    padding-right: 40px;
+    width: 108%;
+    text-align: left;
+}
+.btnDIV {
+    text-align: left;
+    font-size: inherit;
+    letter-spacing: normal;
+    font-weight: 500;
+}
+.learn {
+    white-space: normal;
+    color: blue;
+    background-color: white;
+    border: white;
+    padding-left: 0px;
+    font-size: unset;
+}
+.create-acc {
+    
+}
+.account {
+    color: blue;
+    background-color: white;
+    border: white;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-left: -74%;
+    padding-top: 12%;
+}
+.next {
+    color: white;
+    background-color: #1a73e8;
+    border: #1a73e8;
+    font-family: sans-serif;
+    width: 78PX;
+    height: 37px;
+    margin-left: 289px;
+    display: block;
+    margin-top: -24px;
+    border-radius: 4px;
+    font-weight: 500;
 }
