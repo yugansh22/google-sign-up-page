@@ -103,6 +103,7 @@ table {
     border: white;
     display: flex;
     padding-top: 2%;
+    cursor: pointer;
 }
 .form-container{
     width: 82%;
@@ -131,9 +132,10 @@ table {
     border: white;
     padding-left: 0px;
     font-size: unset;
+    cursor: pointer;
 }
 .create-acc {
-    
+    cursor: pointer;
 }
 .account {
     color: blue;
@@ -143,6 +145,7 @@ table {
     font-family: sans-serif;
     margin-left: -74%;
     padding-top: 12%;
+    cursor: pointer;
 }
 .next {
     color: white;
@@ -156,4 +159,8 @@ table {
     margin-top: -24px;
     border-radius: 4px;
     font-weight: 500;
+    cursor: pointer;
+}
+.nextDIV {
+    cursor: pointer;
 }
